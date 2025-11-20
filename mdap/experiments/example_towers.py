@@ -149,8 +149,8 @@ def main():
     """Run MAKER on a small Towers of Hanoi problem."""
 
     # Configuration
-    N_DISKS = 3  # Start small for demonstration
-    K = 2  # Vote margin (paper uses 3 for 20-disk problem)
+    N_DISKS = 10  # Testing with 10 disks = 1,023 steps
+    K = 3  # Vote margin (using paper's k=3 for larger problems)
 
     print("=" * 70)
     print("MAKER: Solving Towers of Hanoi with Maximal Agentic Decomposition")
